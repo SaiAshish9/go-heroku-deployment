@@ -4,9 +4,9 @@
 "keywords": [
   "getting-started",
   "go",
-  "sample",
-  "example"
+  "sample"
 ],
+
 "website": "https://github.com/SaiAshish9/go-heroku-deployment",
 "repository": "https://github.com/SaiAshish9/go-heroku-deployment"
 }
