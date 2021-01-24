@@ -3,4 +3,4 @@ build:
     - go
 
 run:
-  web: heroku-deployment
+  web: go-test
