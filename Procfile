@@ -1,1 +1,1 @@
-web: bin/heroku-deployment
+web: bin/go-test
