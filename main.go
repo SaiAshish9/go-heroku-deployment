@@ -11,7 +11,9 @@ type profile struct {
 }
 
 // heroku buildpacks:set heroku/go
+// heroku create go-test-by-sai --buildpack https://github.com/some/buildpack.git
 // heroku create go-test-by-sai --buildpack heroku/go
+// heroku buildpacks:set https://github.com/some/buildpack.git -a go-test-by-sai
 
 func main() {
 	http.HandleFunc("/", foo)
